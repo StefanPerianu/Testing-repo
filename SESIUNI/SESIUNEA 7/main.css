@@ -1,0 +1,148 @@
+body {
+  box-sizing: border-box;
+  height: 2000px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraphs {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
+
+p::first-letter {
+  color: #ff0000;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: #0000ff;
+  /* text-transform: uppercase; */
+  font-variant: small-caps;
+}
+
+p::selection {
+  background-color: yellow;
+  color: red;
+}
+
+blockquote {
+  /* margin: 0; */
+  font-style: italic;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  width: 30em;
+  position: relative;
+  padding: 40px 80px;
+  /* border: 1px solid black; */
+}
+
+blockquote::before {
+  content: open-quote;
+  top: 0;
+  left: 0;
+}
+
+blockquote::after {
+  content: close-quote;
+  bottom: 0;
+  right: 0;
+}
+
+blockquote::before,
+blockquote::after {
+  background-color: #ccc;
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  line-height: 1.5em;
+  font-size: 3em;
+  border-radius: 50%;
+  text-align: center;
+}
+
+ul li::before {
+  content: "x";
+  background-color: red;
+  border-radius: 50%;
+  text-align: center;
+}
+
+a:link {
+  text-transform: uppercase;
+  color: green;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  background-color: yellow;
+  color: red;
+  border: 1px solid black;
+}
+
+a:active {
+  background-color: red;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+td,
+th {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+tr:nth-of-type(odd) {
+  background-color: #ccc;
+}
+
+tr:nth-of-type(even) {
+  background-color: blue;
+}
+
+.city-image {
+  width: 100px;
+  height: auto;
+}
+
+form {
+  margin: 30px;
+}
+
+input {
+  width: 500px;
+}
+
+input::-webkit-input-placeholder {
+  color: red;
+}
+
+input::placeholder {
+  color: red;
+}
+
+input:focus {
+  background-color: cadetblue;
+}
+
+.form-inputs {
+  margin: 15px;
+}

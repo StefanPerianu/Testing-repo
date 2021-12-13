@@ -1,0 +1,115 @@
+.welcome {
+  height: 100vh;
+  width: 100%;
+  background-color: var(--bg-primary);
+
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.welcome h1,
+.welcome p {
+  color: var(--text-white);
+}
+
+.welcome p {
+  font-size: var(--fs-large);
+  margin-bottom: var(--spacing-medium);
+}
+
+.welcome p:last-of-type {
+  margin-bottom: var(--spacing-xl);
+}
+
+.welcome p span {
+  color: var(--text-secondary);
+}
+
+.welcome img {
+  height: 24px;
+  width: auto;
+  margin-left: var(--spacing-medium);
+  position: relative;
+  top: var(--spacing-tiny);
+}
+
+.welcome .container {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+}
+
+.welcome a {
+  color: var(--text-light);
+  background-color: var(--button-color);
+
+  font-size: var(--fs-medium);
+  text-transform: uppercase;
+  text-align: center;
+
+  padding: var(--spacing-medium);
+  border: 2px solid var(--button-color);
+  border-radius: 5px;
+
+  width: 260px;
+}
+
+.welcome a:hover {
+  background-color: transparent;
+}
+
+.who-we-are {
+  background-color: var(--bg-secondary);
+}
+
+.who-we-are .container.grid {
+  padding: var(--spacing-medium) var(--spacing-small);
+}
+
+.who-we-are h2 {
+  padding-top: var(--spacing-large);
+}
+
+.who-we-are h2,
+.who-we-are p {
+  margin-bottom: var(--spacing-large);
+  text-align: center;
+}
+
+.who-we-are .container.grid p {
+  margin-right: var(--spacing-small);
+  margin-left: var(--spacing-small);
+}
+
+.who-we-are .images-container {
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-bottom: var(--spacing-large);
+}
+
+.who-we-are .image-wrapper {
+  width: calc(100% / 3);
+
+  padding-right: var(--spacing-small);
+  padding-left: var(--spacing-small);
+  margin-bottom: var(--spacing-medium);
+}
+
+.who-we-are img {
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 992px) {
+  .who-we-are .image-wrapper {
+    width: 50%;
+  }
+}
+
+@media (max-width: 768px) {
+  .who-we-are .image-wrapper {
+    width: 100%;
+  }
+}

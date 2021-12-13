@@ -1,0 +1,47 @@
+html {
+    box-sizing: border-box;
+}
+
+.responsive-images {
+    max-width: 100%;
+    height: auto;
+}
+
+h1 {
+    color: blue;
+}
+
+.responsive-images{
+    /* visibility: hidden; */
+    display: none;
+}
+
+.responsive-div {
+    width: 90%;
+    font-size: 30px;
+    border: 10px dotted red;
+}
+
+.responsive-span {
+    font-size: 0.5em;
+}
+
+@media screen and (max-width: 1200px) and (orientation: portrait) {
+    h1 {
+        color: red;
+    }
+  }
+
+@media screen and (max-width: 750px) {
+    h1 {
+        color: green;
+    }
+    .responsive-images{
+        /* visibility: visible; */
+        display: inline;
+    }
+    .big-image{
+        /* visibility: hidden; */
+        display: none;
+    }
+  }

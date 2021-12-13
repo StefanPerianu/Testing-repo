@@ -1,0 +1,208 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-image: url("123.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.overflow-box {
+  background-color: #eee;
+  width: 200px;
+  height: 100px;
+  border: 1px solid blue;
+  /* overflow: auto; */
+  /* overflow: scroll; */
+  overflow: hidden;
+  overflow-x: scroll;
+  overflow-y: scroll;
+}
+
+.parent-selector > p {
+  background-color: aqua;
+}
+
+.parent-selector + p {
+  background-color: blueviolet;
+}
+
+.parent-selector ~ p {
+  background-color: brown;
+}
+
+.opecity-image {
+  width: 200px;
+  height: auto;
+  opacity: 0.5;
+}
+
+.opecity-image:hover {
+  opacity: 1;
+  border: 1px solid red;
+}
+
+.opacity-box {
+  background-color: blue;
+  padding: 10px;
+  margin: 10px;
+}
+
+.first {
+  opacity: 0.1;
+}
+
+.second {
+  opacity: 0.5;
+}
+
+.third {
+  opacity: 0.8;
+}
+
+a[target] {
+  background-color: bisque;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+input[type="text"] {
+  width: 200px;
+  display: block;
+  margin: 10px;
+  background-color: aqua;
+}
+
+input[type="submit"] {
+  width: 350px;
+  background-color: pink;
+  color: white;
+  padding: 15px 20px;
+  border: 1px solid red;
+  border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+  background-color: hotpink;
+}
+
+input[type="text"],
+select {
+  width: 200px;
+  padding: 15px 20px;
+  margin: 10px 0;
+  display: inline-block;
+  border: 1px solid gray;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.form-attributes {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: lightgray;
+  padding: 20px;
+}
+
+.no-padding {
+  width: 300px;
+  height: 100px;
+  border: 1px solid red;
+}
+
+.with-padding {
+  width: 300px;
+  height: 100px;
+  border: 1px solid red;
+  padding: 50px;
+}
+
+.text-shaddow {
+  text-shadow: 2px 2px;
+  text-shadow: 2px 2px blue;
+  text-shadow: 2px 2px blue, 3px 3px green;
+  color: red;
+}
+
+.shadow-box {
+  box-shadow: 10px 10px;
+  box-shadow: 10px 10px red;
+  box-shadow: 10px 10px 3px red;
+  background-color: lightgray;
+  width: 500px;
+  height: 200px;
+}
+
+.transform-box {
+  width: 300px;
+  height: 150px;
+  background-color: greenyellow;
+  border: 1px solid hotpink;
+  margin: 5px;
+}
+
+#rotate {
+  transform: rotate(20deg);
+  transform: rotate(-20deg);
+}
+
+.tranzitions-box {
+  margin-top: 10px;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  transition: height 2s, width 2s, transform 2s;
+}
+
+.tranzitions-box:hover {
+  width: 300px;
+  height: 200px;
+  transform: rotate(180deg);
+}
+
+.animation-box {
+  width: 200px;
+  height: 200px;
+  background-color: royalblue;
+  position: relative;
+  animation-name: example-animation;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes example-animation {
+  0% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+
+  25% {
+    background-color: greenyellow;
+    left: 200px;
+    top: 0px;
+  }
+
+  50% {
+    background-color: indigo;
+    left: 200px;
+    top: 200px;
+  }
+
+  75% {
+    background-color: lawngreen;
+    left: 0px;
+    top: 200px;
+  }
+
+  100% {
+    background-color: red;
+    left: 0px;
+    top: 0px;
+  }
+}

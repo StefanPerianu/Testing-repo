@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Adaugam metatag-urile pentru Google -->
+    <title>Clonă IT School</title>
+    <meta name="description" content="O replică a site-ului itschool.ro">
+    <!-- Includem font-urile prima oara -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    <!-- Pentru iconite -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Includem CSS-urile noastre -->
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/about.css">
+</head>
+<body>
+    <nav>
+        <div class="container">
+            <a href="../index.html" class="logo-link">
+                <img src="https://www.itschool.ro/img/logo-white.png" alt="itschool logo">
+            </a>
+            <div class="menu-icon-container">
+                <!-- Iconita de meniu + checkbox-ul sunt pentru mobile. -->
+                <span class="material-icons menu-icon">
+                    menu
+                </span>
+                <input type="checkbox">
+                <ul>
+                    <li>
+                        <a href="courses.html">
+                            Cursuri Online
+                        </a>
+                    </li>
+                    <li class="about-us">
+                        <a href="about.html">
+                            Despre Noi
+                            <!-- Iconita luata de pe Material Icons. -->
+                            <span class="material-icons arrow-down-icon">
+                                arrow_drop_down
+                            </span>
+                        </a>
+                        <!-- Submeniul afisat la hover pe "Despre noi" -->
+                        <div class="submenu">
+                            <a href="../index.html">IT School</a>
+                            <a href="about.html">Despre Noi</a>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="contact.html">
+                            Contact
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="welcome">
+            <div class="container">
+                <h1>Trainerii IT School</h1>
+            </div>
+        </section>
+
+        <section class="trainers">
+            <div class="container grid">
+                <div class="trainers-container">
+                    <div class="trainer-wrapper">
+                        <div class="trainer">
+                            <div class="image-wrapper">
+                                <img src="https://www.itschool.ro/img/traineri/romeo-calota.png" alt="Romeo Calota">
+                            </div>
+                            <h3>Romeo Calota</h3>
+                            <p>Dezvoltator software cu experiență în C++, pune accent pe calitatea produsului înainte de toate. Romeo încurajează împărtășirea informațiilor și este adept al principiului KISS. În timpul liber programeză, citește comic-books și vizionează filme SF.</p>
+                        </div>
+                    </div>
+                    <div class="trainer-wrapper">
+                        <div class="trainer">
+                            <div class="image-wrapper">
+                                <img src="https://www.itschool.ro/temp/vd-java.jpg" alt="Dan Vidican">
+                            </div>
+                            <h3>Dan Vidican</h3>
+                            <p>Dan este programator și lucrează în IT de peste 6 ani. Pasionat de tot ceea ce ține de sfera tehnologică, a ales să împărtășească din cunoștințele sale tuturor celor care își doresc să construiască o carieră în domeniul IT.</p>
+                        </div>
+                    </div>
+                    <div class="trainer-wrapper">
+                        <div class="trainer">
+                            <div class="image-wrapper">
+                                <img src="https://www.itschool.ro/img/traineri/boros-anna.jpg" alt="Anna Boroș">
+                            </div>
+                            <h3>Anna Boroș</h3>
+                            <p>Programatoare de meserie, entuziasmată de modul în care tehnologia poate imbunătăți viața tuturor. Anna este pasionată de teaching, împărtășind cu placere experiențele din domeniu.</p>
+                        </div>
+                    </div>
+                    <div class="trainer-wrapper">
+                        <div class="trainer">
+                            <div class="image-wrapper">
+                                <img src="https://www.itschool.ro/img/traineri/marius-furcic.png" alt="Marius Furcic">
+                            </div>
+                            <h3>Marius Furcic</h3>
+                            <p>Marius este front-end developer cu peste 6 ani experienta. Mereu dornic sa gaseasca challenge-uri noi la care nu renunta pana nu gaseste o solutie. Motto-ul lui preferat: "Calculatorul nu greseste niciodata"</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <footer>
+        <div class="container">
+            <p>IT School România © 2021. Toate drepturile rezervate.</p>
+        </div>
+    </footer>
+</body>
+</html>

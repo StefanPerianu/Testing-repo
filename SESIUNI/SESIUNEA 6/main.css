@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  height: 2000px;
+  overflow: auto;
+}
+
+.container {
+  background-color: aqua;
+  border: 5px solid black;
+}
+
+.box {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  color: white;
+  text-align: center;
+}
+
+.three {
+  z-index: 2;
+}
+
+.two {
+  background-color: blue;
+  margin: 0 auto;
+  left: 50%;
+  bottom: 50px;
+  position: absolute;
+  z-index: 1;
+}

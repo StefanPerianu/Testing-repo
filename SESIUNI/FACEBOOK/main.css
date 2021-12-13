@@ -1,0 +1,429 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 16px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+img {
+    display: block;
+    max-width: 90%;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #eaeaea;
+    padding-top: 80px;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #242526;
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-search{
+    display: flex;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
+
+.logo .fa-facebook {
+    width: 35px;
+    height: 35px;
+    background-color: rgba(59, 89, 152, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo .fa-facebook:hover {
+    background-color: rgba(12, 74, 136, 0.8);
+}
+
+.search-input {
+    display: block;
+    height: 35px;
+    border-radius: 20px;
+    border: unset;
+    padding: 0 15px;
+}
+
+.main-navigation {
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+}
+
+.main-navigation .navigation {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+}
+
+.nav-icons {
+    font-size: 35px;
+    background-color: rgba(131, 131, 131, 0.5);
+}
+
+.nav-icons:hover {
+    background-color: rgba(131, 131, 131, 0.8);
+}
+
+.main-navigation > ul > li > a {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    height: 100%;
+    background-color: rgb(255, 255, 255, 0);
+}
+
+.links {
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+}
+
+.links > ul {
+    display: flex;
+    align-items: center;
+}
+
+.links > ul > li {
+    display: flex;
+    align-items: center;
+}
+
+.links > ul > li > a {
+    width: 100%;
+    height: 100%;
+    padding: 10px;
+}
+
+.links > ul > li > a > i {
+    font-size: 35px;
+    color: white;
+}
+
+.dropdown {
+    display: none;
+}
+
+.main-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+aside {
+    width: 200px;
+}
+
+.news-feed{
+    width: 600px;
+    height: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-image-icon {
+    width: 40px;
+    border-radius: 50%;
+    height: auto;
+}
+
+.post-header {
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+}
+
+.profile {
+    display: flex;
+}
+
+.profile-name {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name span {
+    line-height: 20px;
+}
+
+.img-content{
+    max-width: 100%;
+    margin: 1;
+}
+
+.post-description {
+    background-color: white;
+    padding: 10px;
+}
+
+.profile-options {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+}
+
+.profile-options:hover {
+    background-color: lightgray;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.post {
+    background-color: white;
+    padding: 5px;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.15);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+.reacts, .actions  {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.actions {
+    margin-bottom: 20px;
+}
+
+.reactions {
+    cursor: pointer;
+    width: 135px;
+    height: 30px;
+}
+
+.reactions:hover {
+    font-size: 18px;
+}
+
+.comment {
+    display: flex;
+    flex-direction: column;
+}
+
+.comment-content input {
+    border: unset;
+    display: block;
+    width: 100%;
+    padding: 5px 10px;
+    border-radius: 10px;
+    background-color: lightgoldenrodyellow;
+}
+
+.comment-content {
+    width: 100%;
+}
+
+.comment-users {
+    display: flex;
+    margin: 10px 0;
+}
+
+
+.comment-text {
+    margin-left: 10px;
+}
+
+.left-content {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+    width: 400px;
+    border-radius: 10px;
+    padding-left: 100px;
+}
+
+.left-ul {
+    display: flex;
+    flex-direction: column;
+}
+
+.help-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+}
+
+.create {
+    color: #006CFF;
+    padding: 10px;
+}
+
+.create:hover {
+    background-color: lightskyblue;
+    border-radius: 40px;
+}
+
+.img-eat, .img-table{
+    border-radius: 10px;
+    width: 35px;
+    height: 35px;
+    margin: 5px;
+}
+
+.eat, .table {
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+.eat:hover, .table:hover {
+    display: flex;
+    padding: 5px;
+    margin: 10px;
+    background-color: gray;
+    border-radius: 20px;
+}
+
+.recipes, .table-talk {
+    display: flex;
+    align-items: center;
+}
+
+.right-content {
+    background-color: white;
+    width: 300px;
+    height: 330px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.story-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 5px;
+    padding: 5px;
+}
+
+.arhive {
+    display: flex;
+    align-items: center;
+    color: #006CFF;
+}
+
+.arhive:hover {
+    background-color: lightskyblue;
+    border-radius: 40px;
+}
+
+.img-story {
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+.img-story-add{
+    display: flex;
+}
+
+.add {
+    display: flex;
+    flex-direction: column;
+}
+
+.share {
+    font-size: 12px;
+    color: gray
+}
+
+.general {
+    flex-direction: column;
+}
+
+.friend-font {
+    font-size: 12px;
+}
+
+.addfriend {
+    display: flex;
+    align-items: center;
+    color: #006CFF;
+}
+
+.right-content-second {
+    background-color: white;
+    width: 300px;
+    height: 450px;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+}
+
+.pointgreen {
+    display: flex;
+    width: 10px;
+    height: 10px;
+}
+
+.img-friend{
+    display: flex;
+}
+
+.img-friend-add {
+    border-radius: 10px;
+    width: 45px;
+    height: 45px;
+    margin: 10px;
+}
+
+.friend {
+    font-size: 12px;
+    color: gray
+}
+
+.friend-add {
+    display: flex;
+    flex-direction: column;
+}
+
+
+@media only screen and (max-width: 700px)   {
+    .left-content {
+        padding-left: 0;
+        margin-left: 0;
+        width: 150px;
+    }
+
+    .main-container {
+        display: flex;
+        justify-content: flex-start;
+    }
+    
+}

@@ -1,0 +1,45 @@
+.flex-item-01 {
+    background-color: red;
+    align-self: flex-end;
+}
+
+.flex-item-02 {
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.flex-item-03 {
+    background-color: green;
+    order: -1;
+}
+
+.flex-item-04 {
+    background-color: purple;
+}
+
+.flex-item {
+    color: #ffffff;
+    font-size: 1.2em;
+    padding: 1em;
+    text-align: center;
+    height: 5em;
+    width: 10em;
+}
+
+.flex-container {
+    display: flex;
+    border: 5px solid black;
+    height: 30em;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-grandchild {
+    background-color: chartreuse;
+    height: 3em;
+    width: 10em;
+    border: 1px solid black;
+    margin: 0.1em;
+}
