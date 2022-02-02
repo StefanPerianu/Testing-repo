@@ -9,8 +9,71 @@
 </head>
 <body>
     <h1>This is my first web page with JavaScript</h1>
+
+    <div class="flexContainer">
+        <div class="flex-items">
+            <div class="redSquare"></div>
+            <div class="redSquare"></div>
+        </div>
+        <div class="flexItems">
+            <div class="blueSquare"></div>
+            <div class="blueSquare"></div>
+            <div class="blueSquare"></div>
+        </div>
+    </div>
+
+    <div id="changedList">
+        <ul>
+            <li class="changeThis">Unchanged</li>
+            <li class="changeThis">Unchanged</li>
+            <li class="changeThis">Unchanged</li>
+            <li class="changeThis">Unchanged</li>
+            <li class="changeThis">Unchanged</li>
+        </ul>
+    </div>
     
-    <!-- <script src="index.js"></script> -->
+
+    <p>This text will be changed later by Js</p>
+
+    <span class="styledMessages"> This message was styled by Js</span>
+    <span class="styledMessages"> This message was styled by Js</span>
+
+
+
+
+    <!-- EVENTS -->
+
+    <input type="button" value="Click This" onclick= "changeGreenBox()">
+
+    <!-- ON FOCUS EVENT -->
+    <label for="demoInput">Demo Input</label>
+    <input type="text" name="" id="demoInput" onfocus="focusInput()" onblur="blurInput()">
+
+    <!-- MOUSE ENTER & MOUSE LEAVE Events -->
+
+    <div class="greenBox" onmouseenter="mouseEnter()" onmouseleave="mouseLeave()"></div>
+
+    <!-- ON KEY DOWN & ON KEY UP Events -->
+
+    <label for="demoKey">Demo key events</label>
+    <input type="text" name="demoKey" onkeydown="onKeyDown()" onkeyup="onKeyUp()" onkeypress="onKeyPress()">
+
+    <!-- <script src="index.js"></script>
     <script src="session20.js"></script>
+    <script src="session21.js"></script> -->
+    <script src="session22.js"></script>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
 </body>
 </html>
