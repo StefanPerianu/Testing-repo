@@ -1,0 +1,40 @@
+.redSquare {
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    margin: 10px;
+}
+
+.blueSquare {
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    margin: 10px;
+}
+
+.flexContainer {
+    display: flex;
+}
+
+.flexItems {
+    display: flex
+}
+
+.greenBox {
+    width: 150px;
+    height: 150px;
+    background-color: green;
+    margin: 10px;
+}
+
+/* Session 23 */
+.red {
+    background-color: red;
+}
+.blue {
+    background-color: blue;
+}
+
+.loginForm {
+    margin-top: 25px;
+}

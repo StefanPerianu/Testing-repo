@@ -1,0 +1,82 @@
+[
+  {
+    "first_name": "Robinette",
+    "last_name": "Radbone",
+    "email": "rradbone0@ucla.edu",
+    "gender": "Female",
+    "address": "16297 West Parkway",
+    "phone": "142-413-4120"
+  },
+  {
+    "first_name": "Carroll",
+    "last_name": "Isgar",
+    "email": "cisgar1@flickr.com",
+    "gender": "Female",
+    "address": "9481 Transport Junction",
+    "phone": "907-830-0854"
+  },
+  {
+    "first_name": "Aharon",
+    "last_name": "McGraffin",
+    "email": "amcgraffin2@hao123.com",
+    "gender": "Female",
+    "address": "53540 Northfield Park",
+    "phone": "287-666-5021"
+  },
+  {
+    "first_name": "Laurella",
+    "last_name": "Arno",
+    "email": "larno3@simplemachines.org",
+    "gender": "Male",
+    "address": "134 Express Avenue",
+    "phone": "988-275-4026"
+  },
+  {
+    "first_name": "Elfrieda",
+    "last_name": "Casewell",
+    "email": "ecasewell4@bandcamp.com",
+    "gender": "Male",
+    "address": "5 Vermont Point",
+    "phone": "482-724-4383"
+  },
+  {
+    "first_name": "Marie-ann",
+    "last_name": "Tather",
+    "email": "mtather5@sfgate.com",
+    "gender": "Female",
+    "address": "68 Dennis Pass",
+    "phone": "527-446-2229"
+  },
+  {
+    "first_name": "Antony",
+    "last_name": "Dybald",
+    "email": "adybald6@t-online.de",
+    "gender": "Female",
+    "address": "50385 Jenifer Place",
+    "phone": "646-552-7166"
+  },
+  {
+    "first_name": "Helge",
+    "last_name": "Everist",
+    "email": "heverist7@amazon.co.uk",
+    "gender": "Female",
+    "address": "13188 Sundown Park",
+    "phone": "279-132-2352"
+  },
+  {
+    "first_name": "Amara",
+    "last_name": "Imlaw",
+    "email": "aimlaw8@narod.ru",
+    "gender": "Male",
+    "address": "2 Petterle Point",
+    "phone": "889-381-8670"
+  },
+  {
+    "first_name": "Cherida",
+    "last_name": "Crowdson",
+    "email": "ccrowdson9@tinypic.com",
+    "gender": "Polygender",
+    "address": "2542 Mallard Crossing",
+    "phone": "338-221-1373"
+  }
+]

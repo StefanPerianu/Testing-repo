@@ -1,0 +1,155 @@
+body {
+  box-sizing: border-box;
+  height: 2000px;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+}
+
+.paragraphs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
+
+p::first-letter {
+  color: #f00;
+  font-size: xx-large;
+}
+
+p::first-line {
+  color: #0000ff;
+  font-variant: small-caps;
+}
+
+p::selection {
+  background-color: yellow;
+  color: red;
+}
+
+blockquote {
+  font-style: italic;
+  line-height: 1.5em;
+  font-size: 1.2em;
+  width: 30em;
+  position: relative;
+  padding: 40px 80px;
+}
+
+blockquote::before {
+  content: open-quote;
+  top: 0;
+  left: 0;
+}
+
+blockquote::before,
+blockquote::after {
+  background-color: #ccc;
+  display: block;
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  line-height: 1.5em;
+  font-size: 3em;
+  border-radius: 50%;
+  text-align: center;
+}
+
+blockquote::after {
+  content: close-quote;
+  bottom: 0;
+  right: 0;
+
+}
+
+ul li::before {
+  /* display: block; */
+  text-align: center;
+  content: "x";
+  background-color: red;
+  border-radius: 50%;
+}
+
+a:link {
+    text-transform: uppercase;
+    color: green;
+}
+
+a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: yellow;
+    color: red;
+    border: 1px solid red;
+}
+
+a:active {
+    background-color: red;
+    color: white;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+table td,th {
+    border: 1px solid black;
+    padding: 5px;
+}
+
+tr:nth-of-type(odd) {
+    background-color: slategray;
+}
+
+tr:nth-of-type(even) {
+    background-color: lightskyblue;
+}
+
+.city-image {
+    width: 100px;
+    height: auto;
+}
+
+form {
+    margin: 30px;
+}
+
+input {
+    width: 500px;
+}
+/*Chrome / Opera / Safari*/ 
+input::-webkit-input-placeholder {
+    color: red;
+}
+
+/* Firefox */
+input::-moz-placeholder {
+    color: red;
+}
+
+/* Microsoft IE10+ */
+input::-ms-input-placeholder {
+    color: red;
+}
+
+input::placeholder {
+    color: red;
+}
+
+input:focus {
+    background-color: cadetblue;
+}
+
+.form-inputs {
+    margin: 15px;
+}

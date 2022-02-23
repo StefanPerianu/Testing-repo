@@ -1,0 +1,72 @@
+@media screen and (max-width: 1000px) {
+  body {
+    background-color: lightyellow;
+  }
+}
+
+.flex-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.flex-container .flex-item {
+  width: 100px;
+  height: 100px;
+  background-color: red;
+  margin: 10px;
+}
+
+.flex-container .flex-item.blue {
+  background-color: blue;
+}
+
+.flex-container .flex-item:hover {
+  background-color: green;
+}
+
+.flex-container .flex-item::before {
+  content: "x";
+}
+
+.flex-container .flex-item .text {
+  text-transform: uppercase;
+}
+
+.box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.box .flex-item {
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  margin: 10px;
+}
+
+.box .flex-item .text {
+  color: red;
+}
+
+h1 {
+  background-color: red;
+}
+/*# sourceMappingURL=styles.css.map */

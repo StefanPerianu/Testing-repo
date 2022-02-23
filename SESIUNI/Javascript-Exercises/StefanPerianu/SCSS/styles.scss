@@ -1,0 +1,44 @@
+@import "variables";
+@import "small-screen";
+@import 'mixins';
+
+// Nesting
+
+.flex-container {
+    @include flex-center();
+  .flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: $red-color;
+    margin: 10px;
+    &.blue {
+      background-color: blue;
+    }
+    &:hover {
+      background-color: green;
+    }
+    &::before {
+      content: "x";
+    }
+    .text {
+      text-transform: uppercase;
+    }
+  }
+}
+
+.box {
+    @include flex-direction(column);
+  .flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: black;
+    margin: 10px;
+    .text {
+      color: $red-color;
+    }
+  }
+}
+
+h1 {
+  background-color: $red-color;
+}
